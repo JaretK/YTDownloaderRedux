@@ -1,0 +1,10 @@
+#!/Library/Frameworks/Python.framework/Versions/6.3/Resources/Python.app/Contents/MacOS/Python
+# EASY-INSTALL-ENTRY-SCRIPT: 'youtube-dl==2015.1.16','console_scripts','youtube-dl'
+__requires__ = 'youtube-dl==2015.1.16'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('youtube-dl==2015.1.16', 'console_scripts', 'youtube-dl')()
+    )
