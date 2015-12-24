@@ -100,9 +100,7 @@ public class YTDLMain extends Application {
 		myWriter.clear();
 
 		// Make a new user
-		YTDLMain.user = new UserInformation(
-				"/Volumes/Macintosh_HD/Media/iTunes Library/Automatically Add to iTunes.localized",
-				"/users/jkarnuta/desktop");
+		YTDLMain.user = new UserInformation();
 
 		// Set song static instance variable
 		YTDLMain.song = songInfo;
